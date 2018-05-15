@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/timothy/Desktop/networksProject/workingModel/compute.py", line 49, in <module>
+    clusterIndex=model.predict(array([float(x) for x in clean_line_split]))
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/mllib/clustering.py", line 262, in predict
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/context.py", line 237, in signal_handler
+KeyboardInterrupt

@@ -1,0 +1,36 @@
+Successfully imported Spark Modules
+Loading RAW data...
+Counting all different labels
+smurf. 280790
+neptune. 107201
+normal. 97278
+back. 2203
+satan. 1589
+ipsweep. 1247
+portsweep. 1040
+warezclient. 1020
+teardrop. 979
+pod. 264
+nmap. 231
+guess_passwd. 53
+buffer_overflow. 30
+land. 21
+warezmaster. 20
+imap. 12
+rootkit. 10
+loadmodule. 9
+ftp_write. 8
+multihop. 7
+phf. 4
+perl. 3
+spy. 2
+Parsing dataset...
+Standardizing data...
+Calculating total in within cluster distance for different k values (500 to 500):
+/opt/spark/python/lib/pyspark.zip/pyspark/mllib/clustering.py:347: UserWarning: The param `runs` has no effect since Spark 2.0.0.
+Clustering score for k=500 is 0.267524
+Best k value is 500
+Obtaining clustering result sample for k=500...
+Saving Model to file...
+Saving sample to file...
+DONE!
